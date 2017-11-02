@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context="com.ynzz.gaodemap.MainActivity">
+
+    <Button
+        android:id="@+id/id_main_gaode_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高德地图显示以及定位"/>
+
+    <Button
+        android:id="@+id/id_main_gaode_search_poi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高德地图POI检索附近"/>
+
+    <Button
+        android:id="@+id/id_main_gaode_textinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相关信息显示"/>
+    <Button
+        android:id="@+id/id_router_planning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路径规划"/>
+    <Button
+        android:id="@+id/id_jsontest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON测试"/>
+
+</LinearLayout>
+
